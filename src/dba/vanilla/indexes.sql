@@ -1,1 +1,0 @@
--- CREATE INDEX thing_ix_id ON thing(thing_id);

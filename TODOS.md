@@ -5,9 +5,4 @@ TODOS for yes
 ## Wrangling
 
 - [x] Fetch the data
-- [ ] Normalize the data
-
-
-## Questions
-
-- [ ] Why are some ids missing?
+- [ ] Do I need to include space-delimited raw 1990 txt, or just the csv?
