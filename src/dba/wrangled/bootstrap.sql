@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 tail -n +4 "$0" | sqlite3
 exit $?
-
+---------------------------------------------------------------------
 -- wrangled/bootstrap.sql
 --    Expects vaniila DB to already exist, i.e.
 --       ./data/processed/census-surnames.vanilla.sqlite
 --
 --    Creates the DB ./data/processed/census-surnames.wrangled.sqlite
-
 .bail on
 .echo on
 .changes on
