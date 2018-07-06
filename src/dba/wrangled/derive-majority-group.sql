@@ -80,8 +80,7 @@ WHERE
 
 UPDATE surname
 SET
-    majority_group = 'white'
-    , majority_pct = pct_white
+    (majority_group, majority_pct) = ('white', pct_white)
 WHERE
     (year, name)
     IN (
@@ -96,8 +95,7 @@ WHERE
 -- black
 UPDATE surname
 SET
-    majority_group = 'black'
-    , majority_pct = pct_black
+    (majority_group, majority_pct) = ('black', pct_black)
 WHERE
     (year, name)
     IN (
@@ -113,8 +111,7 @@ WHERE
 -- hispanic
 UPDATE surname
 SET
-    majority_group = 'hispanic'
-    , majority_pct = pct_hispanic
+    (majority_group, majority_pct) = ('hispanic', pct_hispanic)
 WHERE
     (year, name)
     IN (
@@ -130,8 +127,7 @@ WHERE
 -- asian
 UPDATE surname
 SET
-    majority_group = 'asian'
-    , majority_pct = pct_asian
+    (majority_group, majority_pct) = ('asian', pct_asian)
 WHERE
     (year, name)
     IN (
@@ -147,8 +143,7 @@ WHERE
 -- ai_an (american indian/alaskan native)
 UPDATE surname
 SET
-    majority_group = 'ai_an'
-    , majority_pct = pct_ai_an
+    (majority_group, majority_pct) = ('ai_an', pct_ai_an)
 WHERE
     (year, name)
     IN (
@@ -164,8 +159,7 @@ WHERE
 -- mixed (two or more races)
 UPDATE surname
 SET
-    majority_group = 'mixed'
-    , majority_pct = pct_mixed
+    (majority_group, majority_pct) = ('mixed', pct_mixed)
 WHERE
     (year, name)
     IN (
