@@ -1,5 +1,5 @@
-yes
-==============================
+U.S. Census Surnames
+====================
 
 Most frequent surnames, as recorded by the U.S. Census
 
@@ -8,6 +8,8 @@ Check out the Sphinx documentation at:
 
 https://storydrivendatasets.github.io/census-surnames
 
+
+Census landing page: https://www.census.gov/topics/population/genealogy/data.html
 
 
 --------

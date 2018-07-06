@@ -1,0 +1,14 @@
+technical-docs-census-2010-surnames.pdf:
+  title: "Technical Documentation: Demographic Aspects of Surnames - Census 2010"
+  source: https://www2.census.gov/topics/genealogy/2010surnames/surnames.pdf
+  landing_page: https://www.census.gov/topics/population/genealogy/data/2010_surnames.html
+
+technical-docs-census-2000-surnames.pdf:
+  title: "Technical Documentation: Demographic Aspects of Surnames - Census 2000"
+  source: https://www2.census.gov/topics/genealogy/2000surnames/surnames.pdf
+  landing_page: https://www.census.gov/topics/population/genealogy/data/2000_surnames.html
+
+technical-doc-census-1990-surnames.txt:
+  title: 'Name List: Documentation and Methodology - Census 1990'
+  source: http://www2.census.gov/topics/genealogy/1990surnames/nam_meth.txt
+  landing_page: https://www.census.gov/topics/population/genealogy/data/1990_census.html
