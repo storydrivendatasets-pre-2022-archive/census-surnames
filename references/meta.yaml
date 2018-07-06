@@ -10,5 +10,5 @@ technical-docs-census-2000-surnames.pdf:
 
 technical-doc-census-1990-surnames.txt:
   title: 'Name List: Documentation and Methodology - Census 1990'
-  source: http://www2.census.gov/topics/genealogy/1990surnames/nam_meth.txt
+  source: https://www2.census.gov/topics/genealogy/1990surnames/nam_meth.txt
   landing_page: https://www.census.gov/topics/population/genealogy/data/1990_census.html

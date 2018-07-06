@@ -20,7 +20,6 @@ exit $?
 ATTACH DATABASE
     './data/processed/census-surnames.wrangled.sqlite'
     AS wrangled;
-
 -- attach the existing vanilla DB that we will select/insert from
 ATTACH DATABASE
     './data/processed/census-surnames.vanilla.sqlite'

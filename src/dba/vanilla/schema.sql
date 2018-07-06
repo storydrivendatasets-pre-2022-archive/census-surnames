@@ -1,8 +1,8 @@
 DROP TABLE IF EXISTS "surnames_1990";
 CREATE TABLE surnames_1990 (
     name TEXT PRIMARY KEY
-    , per_100k DECIMAL
-    , cum_per_100k DECIMAL
+    , frequency DECIMAL
+    , cum_frequency DECIMAL
     , rank INTEGER
 );
 

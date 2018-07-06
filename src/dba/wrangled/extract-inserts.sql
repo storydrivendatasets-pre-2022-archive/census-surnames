@@ -83,17 +83,19 @@ INSERT INTO
         year
         , name
         , rank
-        , per_100k
     )
 SELECT
     1990
     , name
     , rank
-    , per_100k
 FROM
     vanilla.surnames_1990
 ORDER BY
-    per_100k DESC
+    frequency DESC
     , rank ASC
     , name ASC
 ;
+
+--------------------------------------------------------
+-- TODO: figure out how to convert 1990's frequency into
+--       equivalent 2000/2010 per_100k metric
