@@ -13,6 +13,8 @@ CREATE TABLE surname (
     , rank INTEGER
     , count INTEGER
     , per_100k DECIMAL
+    , majority_group TEXT
+    , majority_pct DECIMAL
     , pct_white DECIMAL
     , pct_black DECIMAL
     , pct_hispanic DECIMAL

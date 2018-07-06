@@ -10,6 +10,7 @@ exit $?
 .bail on
 .echo on
 .changes on
+.timer on
 
 -- initialize wrangled version of database file
 .open './data/processed/census-surnames.wrangled.sqlite'
@@ -36,6 +37,7 @@ DETACH DATABASE wrangled;
 
 -- tidy the wrangled data
 .read ./src/dba/wrangled/tidy.sql
+.read ./src/dba/wrangled/derive-majority-group.sql
 
 -- index the data
 .read ./src/dba/wrangled/indexes.sql

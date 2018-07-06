@@ -6,6 +6,7 @@ exit $?
 .mode csv
 .bail on
 .echo on
+.timer on
 
 -- drop/create new tables
 .open ./data/processed/census-surnames.vanilla.sqlite
