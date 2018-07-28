@@ -11,8 +11,8 @@ CREATE TABLE surname (
     year INTEGER
     , name TEXT
     , rank INTEGER
-    , count INTEGER
     , per_100k DECIMAL
+    , count INTEGER
     , majority_group TEXT
     , majority_pct DECIMAL
     , pct_white DECIMAL

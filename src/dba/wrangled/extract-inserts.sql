@@ -10,8 +10,8 @@ INSERT INTO
         year
         , name
         , rank
-        , count
         , per_100k
+        , count
         , pct_white
         , pct_black
         , pct_hispanic
@@ -23,8 +23,8 @@ SELECT
         2010
         , name
         , rank
-        , count
         , per_100k
+        , count
         , pct_white
         , pct_black
         , pct_hispanic
@@ -47,8 +47,8 @@ INSERT INTO
         year
         , name
         , rank
-        , count
         , per_100k
+        , count
         , pct_white
         , pct_black
         , pct_hispanic
@@ -60,8 +60,8 @@ SELECT
         2000
         , name
         , rank
-        , count
         , per_100k
+        , count
         , pct_white
         , pct_black
         , pct_hispanic
@@ -83,11 +83,13 @@ INSERT INTO
         year
         , name
         , rank
+        , per_100k
     )
 SELECT
     1990
     , name
     , rank
+    , ROUND(1000 * frequency, 2)
 FROM
     vanilla.surnames_1990
 ORDER BY
